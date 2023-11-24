@@ -3,6 +3,7 @@ import sys
 This script counts the lines in standard input
 Input: text from the system
 Output: output line numbers
+Author: Biagini, Davide
 """
 count = 0
 for line in sys.stdin:
@@ -10,4 +11,3 @@ for line in sys.stdin:
 
 print(count, "lines in standard input")
 
-#davide biagini
